@@ -1,0 +1,33 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "first project of node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelResendizz/proyecto1.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "express",
+    "mysql"
+  ],
+  "author": "José Manuel Arteaga Reséndiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelResendizz/proyecto1/issues"
+  },
+  "homepage": "https://github.com/ManuelResendizz/proyecto1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.13"
+  }
+}
